@@ -10,7 +10,7 @@ def exampleone():
     'obser' : ['cases', 'population','cases','population','cases','population'],
     'count': [745,19987071,2666,20595360,37737, 172006362]}
     df_untidy = pd.DataFrame(example_untitdy)
-    print(df_untidy)
+    return df_untidy
 
 
 def exampletwo():
@@ -19,7 +19,7 @@ def exampletwo():
                      'year':[1999,2000,1999,2000,1999,2000],
                      'rate':['745/19987071','2666/20595360', '37737/172006362', '80488/174504898', '212258/1272915272', '213766/1280428583']}
     df_untidy2 = pd.DataFrame(second_example)
-    print(df_untidy2)
+    return df_untidy2
 
 
 def examplethree():
@@ -32,9 +32,9 @@ def examplethree():
              '2000':[20595360, 174504898, 1280428583]}
     part1 = pd.DataFrame(part1)
     part2 = pd.DataFrame(part2)
-    print('table 1')
+    return('table 1')
     print(part1,"\n")
-    print('table 2')
+    return('table 2')
     print(part2)
 
 
