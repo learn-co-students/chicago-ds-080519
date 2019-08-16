@@ -98,31 +98,28 @@ Be prepared to answer questions such as:
  
 ## Specifics:
 ### This project is in groups
-- Group A: Tayo Akigbogun + Michelle Kim
-- Group B: Peter Haferl + Ramin Ostad
-- Group C: Xin Xue + William Sundstrom
-- Group D: Ian Reinert + Michael Nkwantabisa + Cory Gough
-- Group E: Kyle Hayes + George Haws
-- Group F: Yijing Li + Blanche Sonia Ngo Mahop
-- Group G: Marissa Eppes + Melissa Rodriguez
-- Group H: Kaleb Nyquist + Sisay Filate
+- Group A: Kate + Sebastian
+- Group B: John + Philip
+- Group C: Bailey + Ahmed
+- Group D: Logan + Aktan
+
 
 ### Timeline
 
-7/26 Friday - Project Assignment 
+8/16 Friday - Project Assignment 
  - schedule Monday check in with coach
  
-7/29 Monday - Check in with coaches 
+8/19 Monday - Check in 
  - review data cleaning
  - provide url of project repository
  - review at least one table/chart
  - review work plan created for how teammates will approach and divide work
  
-7/30 Tuesday - Demo presentation with feedback from instructors 
+8/20 Tuesday - Demo presentation with feedback from instructors 
  - have polished draft of deck completed
  - have polished version of jupyter notebook completed
  
-7/31 Wednesday 
+8/21 Wednesday 
  - afternoon project presentation
  - science fair open to staff and fellow students
 
