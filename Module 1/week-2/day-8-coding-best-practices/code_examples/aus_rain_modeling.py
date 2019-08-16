@@ -13,7 +13,7 @@ def tr_te_split(df, traget_col, cond_col, cond):
     return tr_x, tr_y, te_x, te_y
 
 def calc_misclass_error(pred, target):
-    error = np.where((pred == target) == False)[0].shape[0]/ target.shape[0]
+    error = np.where((pred == target) == False)[0].shape[0] / target.shape[0]
     return error
 
 
