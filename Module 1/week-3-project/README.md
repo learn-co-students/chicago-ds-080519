@@ -101,10 +101,10 @@ Be prepared to answer questions such as:
  
 ## Specifics:
 ### This project is in groups
-- Group A: Kate + Sebastian
-- Group B: John + Philip
-- Group C: Bailey + Ahmed
-- Group D: Logan + Aktan
+- Group A: Sebastian + John
+- Group B: Logan + Philip
+- Group C: Kate + Ahmed
+- Group D: Bailey + Aktan
 
 ### Timeline
 
