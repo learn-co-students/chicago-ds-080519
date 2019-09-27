@@ -121,8 +121,8 @@ Your presentation should:
  - dataset should be finalized and explored
  - Should have "first stinky model"
 - Tuesday afternoon feedback from staff
-- Wednesday afternoon presentations and science fair. Code and feature freeze.
-- Friday - 30 minute code reviews with staff
+- Thursday afternoon presentations and science fair. Code and feature freeze.
+- Wednesday 30 minute code reviews with staff
  - Will have rubric (will release in advance)
  - Will ask to run linters on code.
  - Will ask to live code. 
