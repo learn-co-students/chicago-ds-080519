@@ -33,8 +33,8 @@ For example, if you were given a data set of housing price data for a given city
 ## Requirements:
 ### Regression
 
-- All the variables should have continous values
-- Minimum observations should be 500
+- Target variable should be continous values
+- Minimum observations - 500
 
 ### Time series 
 - Refer to learn.co section - Module 4 Final Project 
