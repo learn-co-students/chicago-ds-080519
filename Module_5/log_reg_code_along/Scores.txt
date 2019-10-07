@@ -1,0 +1,17 @@
+Precision with ticket: 0.6307692307692307
+Recall with ticket: 0.7454545454545455
+Accuracy with ticket: 0.7828571428571428
+F1 with with ticket: 0.6833333333333332
+roc_auc = .83
+
+Precision no ticket: 0.6153846153846154
+Recall no ticket: 0.7692307692307693
+Accuracy no ticket: 0.7628205128205128
+F1 with no ticket: 0.6837606837606838
+roc_auc = .81
+
+Precision with ticket, C=22.0: 0.6923076923076923
+Recall with ticket, C=22.0: 0.7627118644067796
+Accuracy with ticket, C=22.0: 0.8057142857142857
+F1 with with ticket, c=22.0: 0.7258064516129032
+roc_auc with ticket, C=22.0 0.8503496503496503
