@@ -99,7 +99,8 @@ Data source, description, any preprocessing you think is required
 Model evaluation measures
 Real-world insights
 
-This will be collected via Google Form.
+This will be collected via Google Form 
+https://forms.gle/2ERe4RXKU9nyRVYj8
 
 ### Day -1 (Wednesday):
 Gather and prepare data you need to hit the ground running on Day 1.
