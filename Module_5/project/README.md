@@ -94,7 +94,7 @@ Project idea submissions.  Please be prepared to submit 1-2 ideas to the instruc
 
 _Contents_:
 Problem statement
-The models you plan to demploy
+The models you plan to deploy
 Data source, description, any preprocessing you think is required
 Model evaluation measures
 Real-world insights
