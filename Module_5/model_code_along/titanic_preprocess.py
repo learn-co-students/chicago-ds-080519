@@ -3,6 +3,21 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
+def age_bucket(df):
+    
+    def bucket_ages(age):
+        if age <= 20:
+            return '0-20'
+        elif 20<age<=40:
+            return '20-40'
+        else:
+            return 'above 40'
+        
+    df['Age_bucket'] = df['Age'].apply(bucket_ages)
+    df.drop('Age', axis = 1, inplace = True)
+    
+    return df
+
 def initial_cleanup(df):
     
     """Remove unecessary columns PassengerId and Name, as well as Cabin, 
@@ -14,6 +29,7 @@ def initial_cleanup(df):
     from sklearn.impute import SimpleImputer
     imputer = SimpleImputer(strategy='mean')
     df['Age'] = imputer.fit_transform(df[['Age']])
+    df = age_bucket(df)
     #drop nas
     df.dropna(inplace = True)
     df.drop_duplicates(inplace = True)
@@ -22,7 +38,7 @@ def initial_cleanup(df):
 
 def dummy_titanic(X):
     """Transform the four object columns left after dropping into binary and dummies.
-    Feature count jumps from 9 to 687, mainly because of huge number of ticket options.
+
     """
     X_cat = X.select_dtypes(include='object')
     for feature in list(X_cat):
